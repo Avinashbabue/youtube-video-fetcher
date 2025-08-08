@@ -1,3 +1,4 @@
+```yaml
 # 🎥 YouTube Video Fetcher API
 # Python-based API to fetch and store YouTube video details.
 
@@ -53,3 +54,4 @@ setup_and_run:
       streamlit run dashboard.py
     urls:
       - Dashboard: http://localhost:8501
+```
