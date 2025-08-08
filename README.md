@@ -5,16 +5,15 @@ A Python-based API to fetch and store YouTube video details.
 ---
 
 ## 📂 Project Structure
-
-youtube-video-fetcher/
-├── main.py # FastAPI application entry point
-├── fetcher.py # Periodic video fetching logic
-├── database.py # Database setup (SQLAlchemy)
-├── models.py # Database models
-├── dashboard.py # Streamlit dashboard for viewing videos
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Git ignore rules
+youtube-video-fetcher/  
+├── main.py          # FastAPI application entry point  
+├── fetcher.py       # Periodic video fetching logic  
+├── database.py      # Database setup (SQLAlchemy)  
+├── models.py        # Database models  
+├── dashboard.py     # Streamlit dashboard for viewing videos  
+├── requirements.txt # Python dependencies  
+├── README.md        # Project documentation  
+└── .gitignore       # Git ignore rules  
 
 ---
 
