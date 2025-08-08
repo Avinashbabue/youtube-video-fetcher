@@ -22,7 +22,7 @@ setup_and_run:
       git clone https://github.com/your-username/youtube-video-fetcher.git
       cd youtube-video-fetcher
       ```
-
+      
   - step: Create a Virtual Environment (Windows)
     command: |
       ```bash
