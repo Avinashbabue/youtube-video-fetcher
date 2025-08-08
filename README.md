@@ -1,20 +1,20 @@
-name: YouTube Video Fetcher
-description: |
-  A FastAPI + Streamlit project to fetch the latest YouTube videos using the YouTube Data API,
-  store them in a database, and view them via a dashboard.
+# 🎥 YouTube Video Fetcher API
 
-project_structure: |
-  youtube-video-fetcher/
-    ├── main.py         # FastAPI application entry point
-    ├── fetcher.py      # Periodic video fetching logic
-    ├── database.py     # Database setup (SQLAlchemy)
-    ├── models.py       # Database models
-    ├── dashboard.py    # Streamlit dashboard for viewing videos
-    ├── requirements.txt# Python dependencies
-    ├── .env.example    # Example environment variables
-    ├── README.md       # Project documentation
-    └── .gitignore      # Git ignore rules
+A Python-based API to fetch and store YouTube video details.
 
+---
+
+## 📂 Project Structure
+
+youtube-video-fetcher/
+├── main.py # FastAPI application entry point
+├── fetcher.py # Periodic video fetching logic
+├── database.py # Database setup (SQLAlchemy)
+├── models.py # Database models
+├── dashboard.py # Streamlit dashboard for viewing videos
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules
 setup_and_run:
   - step: Clone the Repository
     command: |
