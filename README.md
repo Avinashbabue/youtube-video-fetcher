@@ -36,8 +36,8 @@ setup_and_run:
       cp .env.example .env
     note: |
       Edit `.env` and set:
-      YOUTUBE_API_KEY=your_api_key_here
-      DATABASE_URL=sqlite:///videos.db
+      YOUTUBE_API_KEY=your_api_key
+      YOUTUBE_SEARCH_QUERY=your_query
 
   - step: 5
     name: Run the API Server
